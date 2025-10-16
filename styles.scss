@@ -145,7 +145,7 @@ body {
     line-height: 1.8;
 
     .hero-image {
-      background-image: url("images/desktop/image-header.jpg");
+      background-image: url("images/mobile/image-header.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: bottom;
@@ -176,7 +176,7 @@ body {
           position: absolute;
           top: calc(90px + 0.75rem);
           left: 50%;
-          transform: translate(-50%, 90%);
+          transform: translate(-50%, 115%);
           width: 65px;
         }
       }
@@ -518,6 +518,9 @@ body {
     }
 
     main {
+      .hero-image {
+        background-image: url("images/desktop/image-header.jpg");
+      }
       .gallery {
         .gallery-item1,
         .gallery-item2 {

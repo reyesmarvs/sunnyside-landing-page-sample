@@ -135,7 +135,7 @@ body main {
   line-height: 1.8;
 }
 body main .hero-image {
-  background-image: url("images/desktop/image-header.jpg");
+  background-image: url("images/mobile/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -165,7 +165,7 @@ body main .hero-image picture img {
   position: absolute;
   top: calc(90px + 0.75rem);
   left: 50%;
-  transform: translate(-50%, 90%);
+  transform: translate(-50%, 115%);
   width: 65px;
 }
 body main .gallery {
@@ -434,6 +434,9 @@ body footer .social-icons li a img:hover {
   }
   body header .hamburger-icon {
     display: none;
+  }
+  body main .hero-image {
+    background-image: url("images/desktop/image-header.jpg");
   }
   body main .gallery .gallery-item1,
   body main .gallery .gallery-item2 {
