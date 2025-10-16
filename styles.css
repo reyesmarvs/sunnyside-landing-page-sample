@@ -135,7 +135,7 @@ body main {
   line-height: 1.8;
 }
 body main .hero-image {
-  background-image: url("../images/desktop/image-header.jpg");
+  background-image: url("images/desktop/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
