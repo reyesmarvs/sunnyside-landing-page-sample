@@ -427,7 +427,7 @@ body footer .social-icons li a img:hover {
     text-transform: uppercase;
   }
   body header nav .header-menu-list li:nth-child(4) a:hover {
-    background-color: hsla(0, 100%, 100%, 0.4);
+    background-color: hsla(0, 100%, 100%, 0.3);
     color: var(--clr-white);
   }
   body header nav .header-menu-list li a {
