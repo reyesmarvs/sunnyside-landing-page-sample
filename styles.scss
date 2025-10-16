@@ -478,7 +478,7 @@ body {
           list-style: none;
           display: flex;
           flex-direction: row;
-          gap: 4rem;
+          gap: 5rem;
           padding: 0 2rem;
           position: sticky;
           height: unset;
@@ -492,6 +492,23 @@ body {
             align-items: center;
             justify-content: center;
 
+            &:nth-child(4) {
+              a {
+                background-color: var(--clr-white);
+                font-family: var(--ff-primary);
+                color: #000;
+                padding: 1rem 1.5rem;
+                font-weight: var(--fw-700);
+                border-radius: 70px;
+                text-transform: uppercase;
+
+                &:hover {
+                  background-color: hsla(0, 100%, 100%, 0.4);
+                  color: var(--clr-white);
+                }
+              }
+            }
+
             a {
               color: var(--clr-white);
               font-weight: 500;
@@ -502,7 +519,7 @@ body {
                 background-color: var(--clr-white);
                 font-family: var(--ff-primary);
                 color: #000;
-                padding: 1rem;
+                padding: 1rem 1.5rem;
                 font-weight: var(--fw-700);
                 border-radius: 70px;
                 text-transform: uppercase;
