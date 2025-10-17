@@ -461,6 +461,7 @@ body footer .social-icons li a img:hover {
     align-items: flex-start;
     text-align: left;
     width: 50%;
+    min-height: unset;
   }
   body main .gallery .gallery-item1 {
     flex-direction: row-reverse;
